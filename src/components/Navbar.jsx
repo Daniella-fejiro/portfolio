@@ -154,8 +154,8 @@ export default function Navbar() {
               scale: 0.98,
             }}
           >
-            <NavLink
-              to="/contact"
+            <a
+              href="https://wa.me/2348032232968"
               className="group flex items-center gap-2 rounded-full border border-border px-5 py-2.5 text-sm font-medium transition-colors duration-300 hover:border-foreground"
             >
               Let's Talk
@@ -168,7 +168,7 @@ export default function Navbar() {
               >
                 <FaWhatsapp size={16} />
               </motion.div>
-            </NavLink>
+            </a>
           </motion.div>
         </div>
 
@@ -243,14 +243,14 @@ export default function Navbar() {
               ))}
 
               <motion.div variants={itemVariants}>
-                <NavLink
-                  to="/contact"
+                <a
+                  href="https://wa.me/2348032232968"
                   onClick={closeMenu}
                   className="flex items-center justify-center gap-2 rounded-full border border-border px-5 py-3 text-sm font-medium"
                 >
                   Let's Talk
                   <FaWhatsapp size={16} />
-                </NavLink>
+                </a>
               </motion.div>
             </motion.div>
           </motion.div>

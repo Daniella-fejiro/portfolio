@@ -1,98 +1,126 @@
-import { motion } from "framer-motion"
 import { NavLink } from "react-router-dom"
-import { FaGithub, FaLinkedin, FaTiktok } from "react-icons/fa"
+import { FaGithub, FaTiktok, FaWhatsapp } from "react-icons/fa"
+import { Mail } from "lucide-react"
 
 export default function Footer() {
   return (
-    <footer className="bg-background border-t border-border py-14">
-      <div className="mx-auto max-w-6xl px-6">
+    <footer className="border-t border-border">
+      <div className="mx-auto max-w-6xl px-6 py-16">
 
-        <div className="grid gap-10 md:grid-cols-3">
+        <div className="grid gap-12 md:grid-cols-2 lg:grid-cols-4">
 
-          {/* Brand / Intro */}
-          <div>
-            <h3 className="text-lg font-semibold text-foreground">
+          {/* Brand */}
+          <div className="lg:col-span-2">
+            <h3 className="text-2xl font-semibold text-foreground">
               Daniella
             </h3>
 
-            <p className="mt-3 text-sm leading-relaxed text-muted">
-              Full-stack developer focused on building clean, reliable systems
-              with an interest in infrastructure and real-world applications.
+            <p className="mt-4 max-w-md leading-relaxed text-muted-foreground">
+              Full-stack developer passionate about building modern web
+              applications, scalable systems, and impactful digital
+              experiences.
             </p>
+
+            <a
+              href="https://wa.me/2348032232968"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="mt-6 inline-flex items-center gap-2 rounded-full bg-foreground px-5 py-3 text-sm font-medium text-background transition hover:opacity-90"
+            >
+              <FaWhatsapp size={18} />
+              Chat on WhatsApp
+            </a>
           </div>
 
           {/* Navigation */}
           <div>
-            <h4 className="text-xs tracking-widest text-muted">
-              NAVIGATION
+            <h4 className="text-sm font-semibold text-foreground">
+              Navigation
             </h4>
 
-            <div className="mt-4 flex flex-col gap-2 text-sm">
-              <NavLink to="/" className="text-foreground hover:opacity-70 transition">
+            <div className="mt-4 flex flex-col gap-3">
+              <NavLink
+                to="/"
+                className="text-muted-foreground transition hover:text-foreground"
+              >
                 Home
               </NavLink>
 
-              <NavLink to="/projects" className="text-foreground hover:opacity-70 transition">
-                Projects
-              </NavLink>
-
-              <NavLink to="/about" className="text-foreground hover:opacity-70 transition">
+              <NavLink
+                to="/about"
+                className="text-muted-foreground transition hover:text-foreground"
+              >
                 About
               </NavLink>
 
-              <NavLink to="/contact" className="text-foreground hover:opacity-70 transition">
+              <NavLink
+                to="/projects"
+                className="text-muted-foreground transition hover:text-foreground"
+              >
+                Projects
+              </NavLink>
+
+              <NavLink
+                to="/contact"
+                className="text-muted-foreground transition hover:text-foreground"
+              >
                 Contact
               </NavLink>
             </div>
           </div>
 
-          {/* Socials */}
+          {/* Contact */}
           <div>
-            <h4 className="text-xs tracking-widest text-muted">
-              CONNECT
+            <h4 className="text-sm font-semibold text-foreground">
+              Contact
             </h4>
 
-            <div className="mt-4 flex flex-col gap-3 text-sm">
+            <div className="mt-4 space-y-4">
+
               <a
-                href="https://github.com/"
+                href="mailto:daniellaifeakachukwu@gmail.com"
+                className="flex items-center gap-2 text-muted-foreground transition hover:text-foreground"
+              >
+                <Mail size={16} />
+                daniellaifeakachukwu@gmail.com
+              </a>
+
+              <a
+                href="https://github.com/yourusername"
                 target="_blank"
-                className="flex items-center gap-2 text-foreground hover:opacity-70 transition"
+                rel="noopener noreferrer"
+                className="flex items-center gap-2 text-muted-foreground transition hover:text-foreground"
               >
                 <FaGithub size={16} />
                 GitHub
               </a>
 
               <a
-                href="#"
-                className="flex items-center gap-2 text-foreground hover:opacity-70 transition"
-              >
-                <FaLinkedin size={16} />
-                LinkedIn
-              </a>
-
-              <a
-                href="#"
-                className="flex items-center gap-2 text-foreground hover:opacity-70 transition"
+                href="https://www.tiktok.com/@yourusername"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center gap-2 text-muted-foreground transition hover:text-foreground"
               >
                 <FaTiktok size={16} />
                 TikTok
               </a>
+
             </div>
           </div>
 
         </div>
 
-        {/* Bottom bar */}
-        <div className="mt-12 flex flex-col gap-4 border-t border-border pt-6 text-xs text-muted md:flex-row md:items-center md:justify-between">
+        {/* Bottom Bar */}
+        <div className="mt-14 border-t border-border pt-6">
+          <div className="flex flex-col gap-3 text-sm text-muted-foreground md:flex-row md:items-center md:justify-between">
+            <p>
+              © {new Date().getFullYear()} Daniella. All rights reserved.
+            </p>
 
-          <p>
-            © {new Date().getFullYear()} Daniella. All rights reserved.
-          </p>
-
-          <p>
-            Built with React & Tailwind CSS
-          </p>
-
+            <p>
+              Designed & Built with React, Tailwind CSS and Framer Motion.
+            </p>
+          </div>
         </div>
 
       </div>
