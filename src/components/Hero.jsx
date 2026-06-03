@@ -18,7 +18,7 @@ export default function Hero() {
           <div className="mb-6 inline-flex items-center rounded-full border border-border px-4 py-2">
             <span className="mr-2 h-2 w-2 rounded-full bg-blue-500" />
             <span className="text-sm text-muted">
-              Currently building new projects
+              Open to Collaborations
             </span>
           </div>
 

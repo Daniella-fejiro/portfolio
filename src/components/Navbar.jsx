@@ -1,12 +1,13 @@
 import { useState, useEffect } from "react"
 import { NavLink } from "react-router-dom"
 import { Menu, X, ArrowUpRight } from "lucide-react"
+import { FaWhatsapp } from "react-icons/fa"
 import { motion, AnimatePresence } from "framer-motion"
 
 const links = [
+  { name: "Home", path: "/" },
   { name: "Projects", path: "/projects" },
   { name: "About", path: "/about" },
-  { name: "Skills", path: "/skills" },
   { name: "Contact", path: "/contact" },
 ]
 
@@ -165,7 +166,7 @@ export default function Navbar() {
                   y: -2,
                 }}
               >
-                <ArrowUpRight size={16} />
+                <FaWhatsapp size={16} />
               </motion.div>
             </NavLink>
           </motion.div>
@@ -248,7 +249,7 @@ export default function Navbar() {
                   className="flex items-center justify-center gap-2 rounded-full border border-border px-5 py-3 text-sm font-medium"
                 >
                   Let's Talk
-                  <ArrowUpRight size={16} />
+                  <FaWhatsapp size={16} />
                 </NavLink>
               </motion.div>
             </motion.div>

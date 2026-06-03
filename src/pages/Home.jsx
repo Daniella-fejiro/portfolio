@@ -15,9 +15,7 @@ export default function Home(){
             <FeaturedProjects />
             <Experience />
             <AreasOfInterest />
-            <WhyTheseIndustries />
             <CTA />
-            <Footer />
         </div>
     )
 }

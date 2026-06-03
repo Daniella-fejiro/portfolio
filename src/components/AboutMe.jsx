@@ -2,63 +2,55 @@ import { motion } from "framer-motion"
 
 export default function AboutMe() {
   return (
-    <section className="bg-background py-20">
+    <section className="py-10">
       <div className="mx-auto max-w-5xl px-6">
-
-        {/* Header */}
         <motion.div
-          initial={{ opacity: 0, y: 10 }}
+          initial={{ opacity: 0, y: 12 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.5 }}
           className="max-w-3xl"
         >
-          <span className="font-mono text-xs tracking-widest text-muted">
-            ABOUT
+          <span className="font-mono text-xs tracking-widest uppercase text-muted-foreground">
+            My Journey
           </span>
 
-          <h1 className="mt-3 text-3xl font-semibold text-foreground md:text-4xl">
-            Who I Am
-          </h1>
+          <h2 className="mt-4 text-3xl md:text-4xl font-semibold tracking-tight text-foreground">
+            From web development to infrastructure-focused systems.
+          </h2>
+
+          <div className="mt-8 space-y-6 text-muted-foreground leading-relaxed">
+                <p>
+                    My journey into technology began with web development, where I learned
+                    how to build applications that solve practical problems and deliver
+                    meaningful user experiences. Working with modern JavaScript technologies
+                    has given me a strong foundation in both frontend and backend development.
+                </p>
+
+                <p>
+                    As I continued learning, I became curious about the systems that operate
+                    behind the applications people use every day. This curiosity sparked an
+                    interest in networking, infrastructure, and the technologies that power
+                    large-scale operations.
+                </p>
+
+                <p>
+                    While I am still early in my career, I have developed a growing interest
+                    in industries such as telecommunications, aviation, and other
+                    infrastructure-driven sectors. These fields present complex challenges
+                    where technology plays a critical role in reliability, communication,
+                    and operational efficiency.
+                </p>
+
+                <p>
+                    Today, I am focused on strengthening my skills as a developer while
+                    exploring areas such as Linux, networking, cloud technologies, and
+                    system design. My goal is to gradually bridge the gap between software
+                    development and the operational systems that support real-world
+                    industries.
+                </p>
+            </div>
         </motion.div>
-
-        {/* Content */}
-        <div className="mt-10 space-y-6 text-sm leading-relaxed text-muted max-w-3xl">
-
-          <p>
-            I am a full-stack web developer focused on building practical and
-            functional web applications using modern JavaScript technologies.
-            My work is centered around creating clean, structured, and scalable
-            systems.
-          </p>
-
-          <p>
-            Over time, I’ve developed a strong interest in how technology is used
-            in real-world infrastructure-heavy industries. This has led me to
-            focus my learning and projects around sectors such as telecommunications,
-            aviation, and oil & gas.
-          </p>
-
-          <p>
-            I’m particularly interested in how these industries rely on systems
-            for communication, coordination, and operational efficiency, and how
-            software can improve those processes.
-          </p>
-
-          <p>
-            Outside of web development, I am currently exploring the broader
-            infrastructure space — including Linux, networking, and cloud systems —
-            as part of my long-term growth direction toward system-level engineering.
-          </p>
-
-          <p>
-            I am still early in this path, but I am intentional about the direction
-            I’m moving in: building practical experience, improving my technical
-            depth, and working on systems that solve real problems.
-          </p>
-
-        </div>
-
       </div>
     </section>
   )
