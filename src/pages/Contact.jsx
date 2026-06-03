@@ -133,7 +133,7 @@ export default function Contact() {
 
           <button
             type="submit"
-            className="w-full flex items-center justify-center gap-2 p-3 border border-border hover:border-black transition"
+            className="w-full flex items-center justify-center bg-black text-white gap-2 p-3 border border-border hover:border-black transition"
           >
             Send via WhatsApp <FaWhatsapp />
           </button>
