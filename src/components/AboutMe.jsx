@@ -20,36 +20,28 @@ export default function AboutMe() {
           </h2>
 
           <div className="mt-8 space-y-6 text-muted-foreground leading-relaxed">
-                <p>
-                    My journey into technology began with web development, where I learned
-                    how to build applications that solve practical problems and deliver
-                    meaningful user experiences. Working with modern JavaScript technologies
-                    has given me a strong foundation in both frontend and backend development.
-                </p>
+            <p>
+                My journey into tech began with web development, where I learned to build
+                applications that solve real problems and create meaningful user experiences.
+            </p>
 
-                <p>
-                    As I continued learning, I became curious about the systems that operate
-                    behind the applications people use every day. This curiosity sparked an
-                    interest in networking, infrastructure, and the technologies that power
-                    large-scale operations.
-                </p>
+            <p>
+                As I grew, I became curious about the systems behind everyday applications,
+                developing an interest in networking, infrastructure, and large-scale systems.
+            </p>
 
-                <p>
-                    While I am still early in my career, I have developed a growing interest
-                    in industries such as telecommunications, aviation, and other
-                    infrastructure-driven sectors. These fields present complex challenges
-                    where technology plays a critical role in reliability, communication,
-                    and operational efficiency.
-                </p>
+            <p>
+                I’m particularly interested in industries like telecommunications, aviation,
+                and other infrastructure-driven sectors where technology ensures reliability
+                and efficiency.
+            </p>
 
-                <p>
-                    Today, I am focused on strengthening my skills as a developer while
-                    exploring areas such as Linux, networking, cloud technologies, and
-                    system design. My goal is to gradually bridge the gap between software
-                    development and the operational systems that support real-world
-                    industries.
-                </p>
-            </div>
+            <p>
+                Currently, I’m focused on improving my skills in development while exploring
+                Linux, networking, cloud technologies, and system design to bridge software
+                and real-world infrastructure.
+            </p>
+        </div>
         </motion.div>
       </div>
     </section>

@@ -42,12 +42,9 @@ export default function WhyIndustries() {
           </h2>
 
           <p className="mt-5 leading-relaxed text-muted-foreground">
-            As I continue growing as a developer, I find myself increasingly
-            drawn to industries that depend on large-scale operations,
-            infrastructure, and reliability. These sectors present challenges
-            that go beyond traditional web applications and involve systems
-            that support real-world communication, transportation, and
-            essential services.
+            As I grow as a developer, I’m drawn to infrastructure-heavy industries
+            that rely on large-scale, reliable systems powering real-world services
+            like communication and transportation.
           </p>
         </motion.div>
 

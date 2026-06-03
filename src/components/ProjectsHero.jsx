@@ -15,15 +15,13 @@ export default function ProjectsHero() {
           </span>
 
           <h1 className="mt-5 text-4xl md:text-5xl lg:text-6xl font-semibold tracking-tight leading-tight text-foreground">
-            Building software inspired by
-            real-world operational challenges.
+             Building software inspired by 
+             real-world operational challenges.
           </h1>
 
           <p className="mt-6 text-lg leading-relaxed text-muted-foreground">
-            A collection of applications, dashboards, and management platforms
-            built to strengthen my full-stack development skills while exploring
-            problems found in industries such as telecommunications, aviation,
-            and critical infrastructure.
+            A collection of apps and dashboards built to improve my full-stack skills
+            while exploring real-world problems and system design challenges.
           </p>
         </motion.div>
       </div>

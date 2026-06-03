@@ -19,7 +19,7 @@ export default function AboutHero() {
               Building software for industries that keep the world moving.
             </h1>
 
-            <p className="mt-6 max-w-xl text-lg text-muted-foreground leading-relaxed">
+            <p className="mt-6 max-w-xl text-sm text-muted-foreground leading-relaxed">
               I'm Daniella, a Full-Stack Developer focused on creating
               modern digital solutions while exploring technology's role in
               telecommunications, aviation, and critical infrastructure.
