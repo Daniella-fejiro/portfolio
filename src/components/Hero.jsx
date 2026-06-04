@@ -5,7 +5,7 @@ import { ArrowRight } from "lucide-react"
 export default function Hero() {
   return (
     <section className="bg-background">
-      <div className="mx-auto flex min-h-screen max-w-7xl flex-col-reverse items-center justify-center gap-10 px-6 pt-24 pb-16 lg:flex-row lg:items-center lg:justify-between lg:gap-20">
+      <div className="mx-auto flex min-h-screen max-w-6xl flex-col-reverse items-center justify-center gap-10 px-6 pt-24 pb-16 lg:flex-row lg:items-center lg:justify-between lg:gap-20">
 
         {/* Left Content */}
         <motion.div
@@ -39,7 +39,7 @@ export default function Hero() {
           {/* CTA */}
           <div className="mt-10 flex flex-col gap-4 sm:flex-row">
             <motion.a
-              href="#contact"
+              href="/contact"
               whileHover={{
                 y: -2,
                 scale: 1.02,
@@ -52,7 +52,7 @@ export default function Hero() {
             </motion.a>
 
             <motion.a
-              href="#projects"
+              href="/projects"
               whileHover={{
                 y: -2,
               }}
@@ -66,7 +66,7 @@ export default function Hero() {
           <div className="mt-10 flex items-center gap-6">
             <motion.a
               whileHover={{ y: -2 }}
-              href="https://github.com/"
+              href="https://github.com/Daniella-fejiro"
               target="_blank"
               rel="noreferrer"
               className="flex items-center gap-2 text-muted transition-colors hover:text-foreground"
@@ -77,7 +77,7 @@ export default function Hero() {
 
             <motion.a
               whileHover={{ y: -2 }}
-              href="#"
+              href="https://www.tiktok.com/@daniella_fejiro?_r=1&_t=ZS-96vRgY74Lyf"
               className="flex items-center gap-2 text-muted transition-colors hover:text-foreground"
             >
               <FaTiktok size={18} />

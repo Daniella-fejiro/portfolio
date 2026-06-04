@@ -62,7 +62,7 @@ export default function Experience() {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ delay: index * 0.1, duration: 0.4 }}
-                className="border border-border p-6"
+                className="border border-border p-6 hover:border-black"
               >
 
                 {/* ICON + TITLE ROW */}

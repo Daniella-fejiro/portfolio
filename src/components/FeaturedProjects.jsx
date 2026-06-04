@@ -7,7 +7,7 @@ const projects = [
     id: "01",
     title: "FexHomes Real Estate Platform",
     industry: "Real Estate Operations",
-    image: "/projects/fexhomes.png",
+    image: "/fexhomes.png",
     overview:
       "A modern real estate platform designed to help users discover properties, explore listings, and learn about property verification services.",
     problem:
@@ -16,13 +16,13 @@ const projects = [
       "Built a responsive platform that presents listings, property services, and verification processes in a structured and accessible way while maintaining a strong focus on trust and usability.",
     stack: ["Next.js", "Tailwind CSS", "Sanity", "Cloudinary"],
     demo: "https://fexhomes.org",
-    github: "#",
+    github: "https://github.com/Daniella-fejiro/fex-homes",
   },
   {
     id: "02",
     title: "Wallet Management System",
     industry: "Financial Management",
-    image: "/projects/wallet.png",
+    image: "/wallet.png",
     overview:
       "A financial management application that helps users monitor balances, track transactions, and maintain visibility into their finances.",
     problem:
@@ -31,13 +31,13 @@ const projects = [
       "Developed a centralized dashboard that allows users to manage transactions and view financial information through a simple and intuitive interface.",
     stack: ["React", "Node.js", "MongoDB", "Express"],
     demo: "https://wallet-app-delta-eight.vercel.app/",
-    github: "#",
+    github: "https://github.com/Daniella-fejiro/wallet-app",
   },
   {
     id: "03",
     title: "Young Revivalist Global Network",
     industry: "Community Management",
-    image: "/projects/yrgn.png",
+    image: "/yrgn.png",
     overview:
       "A digital platform created to provide an online presence for an organization and improve communication with its audience.",
     problem:
@@ -46,14 +46,14 @@ const projects = [
       "Designed and developed a modern website that organizes information clearly and improves accessibility for visitors and members.",
     stack: ["React", "Tailwind CSS", "Vite"],
     demo: "https://young-revivalist-global-network.vercel.app/",
-    github: "#",
+    github: "https://github.com/Daniella-fejiro/young-revivalist-global-network",
   },
 ]
 
 export default function FeaturedProjects() {
   return (
     <section className="py-10">
-      <div className="mx-auto max-w-7xl px-6">
+      <div className="mx-auto max-w-6xl px-6">
 
         {/* Header */}
         <motion.div
@@ -116,7 +116,7 @@ export default function FeaturedProjects() {
                   >
                     <div className="overflow-hidden border border-border bg-card shadow-sm">
                       <img
-                        src="/girl.jpg"
+                        src={project.image}
                         alt={project.title}
                         className="
                           aspect-video

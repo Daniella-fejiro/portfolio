@@ -60,7 +60,7 @@ export default function AreasOfInterest() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.4, delay: index * 0.1 }}
-              className="border border-border p-6"
+              className="border border-border p-6 hover:border-black"
             >
               <span className="font-mono text-xs text-muted">
                 {item.id}

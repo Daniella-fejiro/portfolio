@@ -69,7 +69,7 @@ export default function WhyIndustries() {
                 transition-all
                 duration-300
                 hover:-translate-y-1
-                hover:border-primary/20
+                hover:border-black
               "
             >
               <span className="font-mono text-xs text-muted-foreground">

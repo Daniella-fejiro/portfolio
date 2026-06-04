@@ -72,7 +72,7 @@ export default function SkillsSection() {
           {skillGroups.map((group) => (
             <div
               key={group.title}
-              className="border border-border p-8"
+              className="border border-border p-8 hover:border-black"
             >
               <h3 className="text-lg font-medium">
                 {group.title}

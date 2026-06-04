@@ -10,7 +10,7 @@ const otherProjects = [
       "A clean and modern blog system designed for reading, publishing, and managing articles with a structured UI and responsive layout.",
     stack: ["React", "Tailwind CSS", "MongoDB", "Node js", "Express js"],
     demo: "https://blog-website-liard-omega.vercel.app/",
-    github: "#",
+    github: "https://github.com/Daniella-fejiro/blog-website",
   },
   {
     id: "05",
@@ -19,7 +19,7 @@ const otherProjects = [
       "An interactive analytics dashboard for visualizing business metrics, performance insights, and structured data reporting.",
     stack: ["React", "ReCharts", "CSS", "Local Storage"],
     demo: "https://react-business-analytics-dashboard.vercel.app/",
-    github: "#",
+    github: "https://github.com/Daniella-fejiro/react-business-analytics-dashboard",
   },
   {
     id: "06",
@@ -28,7 +28,7 @@ const otherProjects = [
       "A booking platform that allows users to schedule appointments, manage time slots, and streamline salon operations.",
     stack: ["React", "CSS", "Local Storage"],
     demo: "https://hair-salon-booking-system.vercel.app/",
-    github: "#",
+    github: "https://github.com/Daniella-fejiro/hair-salon-booking-system",
   },
 ]
 
@@ -50,7 +50,7 @@ const item = {
 export default function OtherProjects() {
   return (
     <section className="py-10 border-t border-border bg-background">
-      <div className="mx-auto max-w-7xl px-6">
+      <div className="mx-auto max-w-6xl px-6">
 
         <motion.div
           initial={{ opacity: 0, y: 12 }}

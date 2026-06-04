@@ -72,7 +72,7 @@ export default function Skills() {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ delay: index * 0.03 }}
-                className="flex items-center gap-3 border border-border px-4 py-3"
+                className="flex items-center gap-3 border border-border px-4 py-3 hover:border-black"
               >
                 <Icon className="text-foreground text-lg" />
                 <span className="text-sm text-muted">

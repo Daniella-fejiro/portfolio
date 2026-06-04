@@ -4,7 +4,7 @@ import { NavLink } from "react-router-dom"
 
 export default function CTA() {
   return (
-    <section className="bg-background py-10">
+    <section className="bg-background py-10 ">
       <div className="mx-auto max-w-4xl px-6">
 
         <motion.div
@@ -12,7 +12,7 @@ export default function CTA() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.5 }}
-          className="border border-border p-10 text-center md:p-14"
+          className="border border-border p-10 text-center md:p-14 border-black"
         >
 
           {/* Label */}

@@ -11,8 +11,18 @@ export default function Footer() {
 
           {/* Brand */}
           <div className="lg:col-span-2">
-            <h3 className="text-2xl font-semibold text-foreground">
-              Daniella
+            <h3 className="flex items-center gap-1">
+                <span className="font-mono text-sm text-muted">
+                {"<"}
+              </span>
+
+              <span className="font-heading text-lg font-semibold tracking-tight">
+                Daniella
+              </span>
+
+              <span className="font-mono text-sm text-muted">
+                {"/>"}
+              </span>
             </h3>
 
             <p className="mt-4 max-w-md leading-relaxed text-muted-foreground">
@@ -46,18 +56,18 @@ export default function Footer() {
                 Home
               </NavLink>
 
+               <NavLink
+                to="/projects"
+                className="text-muted-foreground transition hover:text-foreground"
+              >
+                Projects
+              </NavLink>
+
               <NavLink
                 to="/about"
                 className="text-muted-foreground transition hover:text-foreground"
               >
                 About
-              </NavLink>
-
-              <NavLink
-                to="/projects"
-                className="text-muted-foreground transition hover:text-foreground"
-              >
-                Projects
               </NavLink>
 
               <NavLink
@@ -86,7 +96,7 @@ export default function Footer() {
               </a>
 
               <a
-                href="https://github.com/yourusername"
+                href="https://github.com/Daniella-fejiro"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-2 text-muted-foreground transition hover:text-foreground"
@@ -96,7 +106,7 @@ export default function Footer() {
               </a>
 
               <a
-                href="https://www.tiktok.com/@yourusername"
+                href="https://www.tiktok.com/@daniella_fejiro?_r=1&_t=ZS-96vRgY74Lyf"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-2 text-muted-foreground transition hover:text-foreground"

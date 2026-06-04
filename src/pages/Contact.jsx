@@ -1,7 +1,7 @@
 import { useState } from "react"
 import { motion } from "framer-motion"
 import { FaGithub, FaTiktok, FaWhatsapp } from "react-icons/fa"
-import { ArrowUpRight } from "lucide-react"
+import { ArrowUpRight, Mail } from "lucide-react"
 
 export default function Contact() {
   const [form, setForm] = useState({
@@ -10,7 +10,7 @@ export default function Contact() {
     message: "",
   })
 
-  const phoneNumber = "234XXXXXXXXXX"
+  const phoneNumber = "2348032232968"
 
   const handleChange = (e) => {
     setForm({ ...form, [e.target.name]: e.target.value })
@@ -28,7 +28,7 @@ export default function Contact() {
 
   return (
     <section className="min-h-screen py-24 border-t border-border bg-background">
-      <div className="mx-auto max-w-7xl px-6 grid lg:grid-cols-2 gap-16">
+      <div className="mx-auto max-w-6xl px-6 grid lg:grid-cols-2 gap-16">
 
         {/* LEFT CONTENT */}
         <motion.div
@@ -54,7 +54,7 @@ export default function Contact() {
           <div className="mt-10 space-y-4">
 
             <a
-              href="https://github.com"
+              href="https://github.com/Daniella-fejiro"
               target="_blank"
               className="flex items-center justify-between border border-border p-4 hover:border-black transition"
             >
@@ -65,7 +65,7 @@ export default function Contact() {
             </a>
 
             <a
-              href="https://tiktok.com"
+              href="https://www.tiktok.com/@daniella_fejiro?_r=1&_t=ZS-96vRgY74Lyf"
               target="_blank"
               className="flex items-center justify-between border border-border p-4 hover:border-black transition"
             >
@@ -82,6 +82,17 @@ export default function Contact() {
             >
               <span className="flex items-center gap-3">
                 <FaWhatsapp /> WhatsApp Chat
+              </span>
+              <ArrowUpRight size={16} />
+            </a>
+
+            <a
+              href="mailto:daniellaifeakachukwu@gmail.com"
+              target="_blank"
+              className="flex items-center justify-between border border-border p-4 hover:border-black transition"
+            >
+              <span className="flex items-center gap-3">
+                <Mail /> Send an Email
               </span>
               <ArrowUpRight size={16} />
             </a>
@@ -103,7 +114,7 @@ export default function Contact() {
               name="name"
               value={form.name}
               onChange={handleChange}
-              className="w-full mt-2 p-3 focus:border-black bg-transparent border border-border outline-none"
+              className="w-full mt-2 p-3 hover:border-black focus:border-black bg-transparent border border-border outline-none"
               required
             />
           </div>
@@ -114,7 +125,7 @@ export default function Contact() {
               name="email"
               value={form.email}
               onChange={handleChange}
-              className="w-full focus:border-black mt-2 p-3 bg-transparent border border-border outline-none"
+              className="w-full hover:border-black focus:border-black mt-2 p-3 bg-transparent border border-border outline-none"
               required
             />
           </div>
@@ -126,7 +137,7 @@ export default function Contact() {
               value={form.message}
               onChange={handleChange}
               rows="5"
-              className="w-full mt-2 focus:border-black p-3 bg-transparent border border-border outline-none resize-none"
+              className="w-full mt-2 hover:border-black focus:border-black p-3 bg-transparent border border-border outline-none resize-none"
               required
             />
           </div>
