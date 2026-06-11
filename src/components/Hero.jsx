@@ -77,12 +77,22 @@ export default function Hero() {
 
             <motion.a
               whileHover={{ y: -2 }}
+              href="https://linkedin.com/in/daniella-akafe-a68446394"
+              className="flex items-center gap-2 text-muted transition-colors hover:text-foreground"
+            >
+              <FaLinkedin size={18} />
+              Linkedin
+            </motion.a>
+
+            <motion.a
+              whileHover={{ y: -2 }}
               href="https://www.tiktok.com/@daniella_fejiro?_r=1&_t=ZS-96vRgY74Lyf"
               className="flex items-center gap-2 text-muted transition-colors hover:text-foreground"
             >
               <FaTiktok size={18} />
               TikTok
             </motion.a>
+
           </div>
         </motion.div>
 

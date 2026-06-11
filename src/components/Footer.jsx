@@ -1,5 +1,5 @@
 import { NavLink } from "react-router-dom"
-import { FaGithub, FaTiktok, FaWhatsapp } from "react-icons/fa"
+import { FaGithub, FaLinkedin, FaMailBulk, FaTiktok, FaWhatsapp } from "react-icons/fa"
 import { Mail } from "lucide-react"
 
 export default function Footer() {
@@ -103,6 +103,16 @@ export default function Footer() {
               >
                 <FaGithub size={16} />
                 GitHub
+              </a>
+
+              <a
+                href="https://linkedin.com/in/daniella-akafe-a68446394"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center gap-2 text-muted-foreground transition hover:text-foreground"
+              >
+                <FaLinkedin size={16} />
+                Linkedin
               </a>
 
               <a

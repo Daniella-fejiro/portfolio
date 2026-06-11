@@ -12,7 +12,7 @@ export default function CTA() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.5 }}
-          className="border border-border p-10 text-center md:p-14 border-black"
+          className="border p-10 text-center md:p-14 border-black"
         >
 
           {/* Label */}

@@ -1,6 +1,6 @@
 import { useState } from "react"
 import { motion } from "framer-motion"
-import { FaGithub, FaTiktok, FaWhatsapp } from "react-icons/fa"
+import { FaGithub, FaLinkedin, FaTiktok, FaWhatsapp } from "react-icons/fa"
 import { ArrowUpRight, Mail } from "lucide-react"
 
 export default function Contact() {
@@ -60,6 +60,17 @@ export default function Contact() {
             >
               <span className="flex items-center gap-3">
                 <FaGithub /> GitHub
+              </span>
+              <ArrowUpRight size={16} />
+            </a>
+
+            <a
+              href="https://linkedin.com/in/daniella-akafe-a68446394"
+              target="_blank"
+              className="flex items-center justify-between border border-border p-4 hover:border-black transition"
+            >
+              <span className="flex items-center gap-3">
+                <FaLinkedin /> Linkedin
               </span>
               <ArrowUpRight size={16} />
             </a>

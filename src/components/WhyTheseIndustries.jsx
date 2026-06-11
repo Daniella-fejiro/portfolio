@@ -15,7 +15,7 @@ const industries = [
   },
   {
     id: "03",
-    title: "Oil & Gas",
+    title: "Energy",
     description:
       "Oil and gas operations often span large geographical areas and rely heavily on infrastructure, monitoring, and asset management. The scale and complexity of these environments make them particularly interesting from a technology perspective. I'm interested in how software systems can support operational awareness, maintenance processes, and data-driven decision-making across critical infrastructure.",
   },
