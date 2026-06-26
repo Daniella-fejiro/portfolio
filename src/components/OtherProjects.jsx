@@ -4,7 +4,7 @@ import { FaGithub } from "react-icons/fa"
 
 const otherProjects = [
   {
-    id: "04",
+    id: "05",
     title: "Blog Website Platform",
     description:
       "A clean and modern blog system designed for reading, publishing, and managing articles with a structured UI and responsive layout.",
@@ -13,7 +13,7 @@ const otherProjects = [
     github: "https://github.com/Daniella-fejiro/blog-website",
   },
   {
-    id: "05",
+    id: "06",
     title: "Business Analytics Dashboard",
     description:
       "An interactive analytics dashboard for visualizing business metrics, performance insights, and structured data reporting.",
@@ -22,7 +22,7 @@ const otherProjects = [
     github: "https://github.com/Daniella-fejiro/react-business-analytics-dashboard",
   },
   {
-    id: "06",
+    id: "07",
     title: "Hair Salon Booking System",
     description:
       "A booking platform that allows users to schedule appointments, manage time slots, and streamline salon operations.",

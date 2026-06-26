@@ -5,6 +5,20 @@ import { FaGithub } from "react-icons/fa"
 const projects = [
   {
     id: "01",
+    title: "NetWatch",
+    industry: "Network Monitoring & IT Operations",
+    image: "/netwatch.png",
+    overview:
+      "A full-stack network monitoring system that tracks server uptime and downtime, automatically generates incidents, calculates reliability metrics, and delivers real-time notifications to help administrators monitor infrastructure health.",
+    problem:
+      "IT teams need timely visibility into server availability to quickly detect outages, minimize downtime, and maintain reliable services. Manual monitoring can delay issue detection and increase operational risk.",
+    solution:
+      "Developed a real-time monitoring platform that continuously tracks server status, records incidents, calculates uptime percentages, and instantly notifies connected users through WebSockets whenever a server's status changes.",
+    stack: [ "React.js", "Node.js", "Express.js", "MongoDB", "Mongoose", "Socket.IO", "JWT", "Tailwind CSS",],
+    github: "https://github.com/Daniella-fejiro/netwatch",
+  },
+  {
+    id: "02",
     title: "FexHomes Real Estate Platform",
     industry: "Real Estate Operations",
     image: "/fexhomes.png",
@@ -19,7 +33,7 @@ const projects = [
     github: "https://github.com/Daniella-fejiro/fex-homes",
   },
   {
-    id: "02",
+    id: "03",
     title: "Wallet Management System",
     industry: "Financial Management",
     image: "/wallet.png",
@@ -34,7 +48,7 @@ const projects = [
     github: "https://github.com/Daniella-fejiro/wallet-app",
   },
   {
-    id: "03",
+    id: "04",
     title: "Young Revivalist Global Network",
     industry: "Community Management",
     image: "/yrgn.png",
@@ -186,15 +200,17 @@ export default function FeaturedProjects() {
 
                     {/* LINKS */}
                     <div className="mt-8 flex gap-6">
-                      <a
-                        href={project.demo}
-                        target="_blank"
-                        rel="noreferrer"
-                        className="inline-flex items-center gap-2 text-sm hover:opacity-70 transition"
-                      >
-                        Live Demo
-                        <ArrowUpRight size={16} />
-                      </a>
+                        {project.demo && (
+                          <a
+                            href={project.demo}
+                            target="_blank"
+                            rel="noreferrer"
+                            className="inline-flex items-center gap-2 text-sm hover:opacity-70 transition"
+                          >
+                            Live Demo
+                            <ArrowUpRight size={16} />
+                          </a>
+                        )}     
 
                       <a
                         href={project.github}
